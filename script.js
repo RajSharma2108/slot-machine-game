@@ -5,7 +5,7 @@ let value3 = document.getElementById("value3")
 let startBtn = document.getElementById("startBtn")
 var count = 0;
 
-let values = ["👀", "😎", "🎡","🎁","🚗","😛","💫"]
+let values = ["👀", "😎", "🎡", "🎁", "🚗", "😛", "💫"]
 
 
 function getRandomnValue() {
@@ -15,8 +15,9 @@ function getRandomnValue() {
 function checkValues() {
     console.log(value2.innerText)
     if (value1.innerText == value2.innerText) {
-        if (value2.innerText == value3.innerText)
+        if (value2.innerText == value3.innerText) {
             alert("You Won")
+        }
     }
     else {
         alert("You Lose")
@@ -39,12 +40,12 @@ function valueChanger() {
 var animationId;
 
 function updateAnimation() {
-    if(animationId) clearInterval(animationId)
+    if (animationId) clearInterval(animationId)
     animationId = setInterval(valueChanger, 1000 / "--speed")
 }
 
 
-function animationRunner(){
+function animationRunner() {
     count = 0;
     updateAnimation()
 }

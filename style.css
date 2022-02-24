@@ -1,0 +1,53 @@
+body 
+{
+    background-color: rgb(106, 233, 233);
+}
+
+:root{
+    --speed: 5;
+    --animation-iteration-count: 10;
+}
+
+.machine{
+    height: 250px;
+    width: 1000px;
+    display: flex;
+    background-color: rgba(255, 166, 0, 0.548);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+
+#startBtn {
+    height: 50px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: azure;
+    font-size: 25px;
+
+
+}
+
+.slot{  
+    height: 150px;
+    width: 200px;
+    background-color: goldenrod;
+    margin: 50px;
+    text-align: center;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid violet;
+    border-radius: 5px;
+    
+}
+
